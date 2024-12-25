@@ -1,13 +1,13 @@
 ﻿#include "pch.h"
 #include "CppUnitTest.h"
-#include "../Dictionary/Dictionary.h"  
+#include "../List/List.h"  
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 namespace wordsList 
 {
-	namespace DictionaryLinkedListTest
+	namespace ListLinkedListTest
 	{
-		TEST_CLASS(DictionaryLinkedListTest)
+		TEST_CLASS(ListLinkedListTest)
 		{
 		public:
 
