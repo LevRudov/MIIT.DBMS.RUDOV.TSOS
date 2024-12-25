@@ -11,7 +11,7 @@
 		setlocale(LC_ALL, "Russian");
 		SetConsoleCP(CP_UTF8);
 		SetConsoleOutputCP(CP_UTF8);
-		wordsList::Dictionary list1{ "aple", "yabloko","chair", "stul" };
+		wordsList::Dictionary list1{ "glaza", "ochi","branitcy", "rugatcy" };
 		list1.PushBack("window", "okno");
 		std::cout << list1.ToString() << "\n";
 		list1.Insert("table", "stol");
