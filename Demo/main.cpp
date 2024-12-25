@@ -10,12 +10,11 @@
 		SetConsoleCP(CP_UTF8);
 		SetConsoleOutputCP(CP_UTF8);
 		wordsList::Dictionary list1{ "глаза", "очи","браниться", "ругаться" };
-		list1.PushBack("window", "okno");
+		list1.PushBack("глаза", "очи");
 		std::cout << list1.ToString() << "\n";
-		list1.Insert("table", "stol");
+		list1.Insert("браниться", "ругаться");
 		std::cout << list1.ToString() << "\n";
-		std::cout << list1.TranslationToRus("window") << "\n";
-
+		std::cout << list1.slovosyn("очи") << "\n";
 		return 0;
 	}
 //}
