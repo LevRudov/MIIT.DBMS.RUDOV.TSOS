@@ -1,11 +1,9 @@
 #include <locale.h>
 #include <windows.h>
 #include <iostream>
-#include "../Dictionary/Dictionary.h" 
+#include "../List/List.h" 
 
-/* #include "Dictionary.h" */
-//namespace wordsList 
-//{
+
 	int main()
 	{
 		setlocale(LC_ALL, "Russian");
